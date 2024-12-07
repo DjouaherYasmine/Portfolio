@@ -1,0 +1,17 @@
+nav {
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Vertically centers items */
+  justify-content: center; /* Horizontally centers items */
+  border-radius: 20px;
+  margin: 20px;
+  padding-inline: 50px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centers the navbar horizontally */
+  border: 3px solid #0B0E24;
+  
+}
+
+nav button {
+  color: white; /* Set text color to white */
+}
